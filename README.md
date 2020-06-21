@@ -23,9 +23,18 @@ Please ensure that the following software or modules were installed.
 - R
 
 ## 2.Identification
+
 ```
-bash identify_miRNA_fq_strict.bash clean_data.fastq outdir_name outdir_path
+bash identify_miRNA_fq_strict.bash clean_data.fastq outdir_name outdir_path hsamiRNA_index piRNA_index Rfam_index human_genome_index microbiome_index 
 ```
+
+- hsamiRNA （http://www.mir-base.org/）
+- piRNA (http://www.regulatoryrna.org/database/piRNA/)
+- Rfam (https://rfam.xfam.org/)
+- human genome (http://asia.ensembl.org/index.html)
+- human microbiome (http://www.hmpdacc.org/HMRGD/)
+
+
 ## 3.Classification
 
 - Based on seed-region
