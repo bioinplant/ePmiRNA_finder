@@ -1,4 +1,4 @@
-# PmiRNA_finder#
+# PmiRNA_finder
 Multi-layer feature selection methods and classifiers for plant-derived miRNA identification from animal miRNA sequencing data.
 
 Here we take human sRNA-seq as an example.
