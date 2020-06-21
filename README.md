@@ -66,15 +66,18 @@ miranda mirna.fa human_UTR.fa -en -17 -strict -sc 150 > test_miranda
 
 - Pita
 
-```pita_prediction.pl -utr human_UTR.fa -mir mirna.fa -prefix pita -gxp
+```
+pita_prediction.pl -utr human_UTR.fa -mir mirna.fa -prefix pita -gxp
 ``` 
 
 - Targetscan
 
-```perl targetscan_70.pl  ts_mirna.txt ts_human_UTR.fa targetscan
+```
+perl targetscan_70.pl  ts_mirna.txt ts_human_UTR.fa targetscan
 ```
 
 - Integrate prediction results
 
 ```
-bash target.bash```
+bash target.bash
+```
