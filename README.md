@@ -25,7 +25,7 @@ Please ensure that the following software or modules were installed.
 ## 2.Identification
 
 ```
-bash identify_miRNA_fq_strict.bash clean_data.fastq outdir_name outdir_path hsamiRNA_index piRNA_index Rfam_index human_genome_index microbiome_index 
+bash identify_miRNA_fq_strict.bash raw_data.fastq outdir_name outdir_path hsamiRNA_index piRNA_index Rfam_index human_genome_index microbiome_index 
 ```
 
 - hsamiRNA （http://www.mir-base.org/）
